@@ -1,0 +1,200 @@
+/* This is the design for the header navigation */
+.navigation {
+    width: 100%;
+    margin-bottom: 50px;
+    flex-shrink: 0;
+}
+.logo {
+    display: flex;
+    text-align: center;
+}
+.topNav {
+    width: 100%;
+    padding-top: 15px;
+    list-style-type: none;
+    display: flex;
+    vertical-align: top; 
+}
+.inline-block .logo {
+    width: 473px;
+    height: 112px;
+    flex-shrink: 0;
+}
+li {
+    color: #7E5C82;
+    text-align: center;
+    list-style-type: none;
+    list-style: none;
+    /* Navigation Style */
+    font-family: Nunito Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 20%;
+    height: 66px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.topNav li:hover {
+    color: #518265;
+}
+.topNav li:active {
+    color: #8578A8;
+}
+.topNav li:focus{
+    color: var(--meghan-green, #518265);
+    text-align: center;
+    text-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+
+    /* Navigation Style */
+    font-family: Nunito Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Wonderbloom case study style */
+.jumbotron {
+    background: transparent !important;
+    display: flex;
+    flex-direction: row;
+    
+}
+.bloomLogo {
+    width: 463px;
+    height: 388px;
+    flex-shrink: 0;
+}
+.display-4 {
+    color: var(--meghan-green, #518265);
+    text-align: center;
+    font-family: Source Code Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px; /* 109.375% */
+}
+.lead_1 {
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.my-4 {
+    color: #000;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 208.333% */
+}
+
+/* This is the design for the footer */
+.preFooter {
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 25%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.purpleButton {
+    display: flex;
+    width: 230px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-radius: 65px;
+    background: var(--normal-button-purple, #A181B1);
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.purpleButton:hover {
+    background-color: #C4ABD1;
+}
+.purpleButton:active {
+    background-color: #8578A8;
+}
+h2 {
+    display: flex;
+    width: 229px;
+    height: 66px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--dark-purple-text, #7E5C82);
+    text-align: center;
+    /* Navigation Style */
+    font-family: Nunito Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.greenFoot {
+    background-color: #518265;
+    width: 100%;
+    height: 150px;
+    flex-shrink: 0;
+    /* Style for footer writing */
+    color: white;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-grid;
+    vertical-align: top;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+#linkedIn {
+    width: 70px;
+    height: 70.597px;
+    padding: 20px;
+    padding-top: 40px;
+    flex-shrink: 0;
+    grid-column: 9;
+}
+#MBLogo {
+    width: 90px;
+    height: 90px;
+    padding-top: 30px;
+    flex-shrink: 0;
+    grid-column: 10;
+}
+.contact1 {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.contact2 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+*,  *::before, *::after {     margin: 0;     padding: 0;     box-sizing: border-box; }
+
+
+/* media query for mobile & tablet */
+@media (max-width: 420px) {
+  .navbar-brand ul li{
+     width:100%;
+   }}
+   .jumbotron {
+    flex-direction: column;
+   }
