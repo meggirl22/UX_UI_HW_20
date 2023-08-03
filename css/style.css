@@ -62,7 +62,7 @@ li {
     background: transparent !important;
     display: flex;
     flex-direction: row;
-    
+    margin-bottom: 20px;
 }
 .bloomLogo {
     width: 463px;
@@ -76,7 +76,8 @@ li {
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
-    line-height: 35px; /* 109.375% */
+    line-height: 60px; /* 109.375% */
+    margin-top: 25px;
 }
 .lead_1 {
     color: #000;
@@ -85,6 +86,8 @@ li {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin-top: 35px;
+    margin-left: 60px;
 }
 .my-4 {
     color: #000;
@@ -95,14 +98,33 @@ li {
     font-weight: 700;
     line-height: 50px; /* 208.333% */
 }
-.container {
+.smallBold {
+    color: #000;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 208.333% */
+}
+.container-1 {
     justify-content: space-evenly;
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+.row-1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-items: center;
 }
 .orangeBox {
     background-color: #FBCCA8;
-    width: 100%;
-    height: 350px;
+    width: 1200px;
+    height: 500px;
     flex-shrink: 0;
+    /* height: 800px; */
 }
 .wonderSummary {
     color: #000;
@@ -111,11 +133,15 @@ li {
     font-style: normal;
     font-weight: 300;
     line-height: 50px; /* 156.25% */
+    margin-left: 250px;
+    margin-top: 120px;
 }
 #chalkboard {
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
     flex-shrink: 0;
+    margin-left: 200px;
+    margin-top: 90px;
 }
 /* User Persona styling */
 .userIntro {
@@ -126,12 +152,15 @@ li {
     font-weight: 300;
     line-height: 50px; /* 208.333% */
     display: flex;
-    width: 1208px;
-    height: 194px;
+    /* width: 1208px; */
+    height: auto;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
-
+    padding-left: 300px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 300px;
 }
 #persona {
     color: #000;
@@ -140,6 +169,10 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: 50px; /* 156.25% */
+}
+.personaAsh {
+    /* display: flex; */
+    /* align-items: normal; */
 }
 .userSummary {
     color: #000;
@@ -150,11 +183,30 @@ li {
     line-height: 50px; /* 208.333% */ 
 }
 #userAshley {
-    width: 645px;
-    height: 394px;
+    width: 845px;
+    height: 594px;
     flex-shrink: 0;
+    padding-top: 0px;
 }
-
+.userStatement {
+    color: #000;
+    text-align: center;
+    font-family: Yesteryear;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px; /* 118.182% */
+    display: flex;
+    /* width: 1208px; */
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    padding-left: 300px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 300px;
+}
 
 /* This is the design for the footer */
 .foot {
